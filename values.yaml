@@ -1,5 +1,5 @@
 # -- Install and upgrade CRDs
-installCRDs: false
+installCRDs: true
 # -- Keep CRD's on helm uninstall
 keepCRDs: true
 
