@@ -18,7 +18,7 @@ git pull
 cat << EOF >> hydrator.metadata
 {
   "commands": ["hydrate.sh"],
-  "drySHA": "$DRYSHA",
+  "drySHA": "$DRYSHA"
 }
 EOF
 
