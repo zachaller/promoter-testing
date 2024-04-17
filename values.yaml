@@ -176,7 +176,7 @@ controller:
     periodSeconds: 5
     failureThreshold: 3
     successThreshold: 1
-    timeoutSeconds: 4
+    timeoutSeconds: 5
 
   ## Configure Pod Disruption Budget for the controller
   pdb:
@@ -185,7 +185,7 @@ controller:
     # -- Annotations to be added to controller [Pod Disruption Budget]
     annotations: {}
     # -- Deploy a [Pod Disruption Budget] for the controller
-    enabled: false
+    enabled: true
     # -- Minimum number / percentage of pods that should remain scheduled
     minAvailable: # 1
     # -- Maximum number / percentage of pods that may be made unavailable
