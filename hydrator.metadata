@@ -6,3 +6,7 @@
   "commands": ["hydrate.sh"],
   "drySHA": "0fee7e21d3dbfe56aea071f9f16e7486b9fbd9dd",
 }
+{
+  "commands": ["hydrate.sh"],
+  "drySHA": "a599d2bde9af3dbeaff6145bcb3e1a15e4cecdc7"
+}
