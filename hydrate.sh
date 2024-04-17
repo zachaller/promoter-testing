@@ -15,9 +15,17 @@ echo $DRYSHA
 git checkout environment/development-next
 git pull
 
+cat << EOF >> hydrator.metadata
+{
+  "commands": ["hydrate.sh"],
+  "drySHA": "$DRYSHA",
+}
+EOF
+
 rm manifest.yaml
 mv manifest-next.yaml manifest.yaml
 git add manifest.yaml
+git add hydrator.metadata
 git commit -s -S  -m "hydration of $DRYSHA"
 git push
 echo "Pushed to hydrated branch"
