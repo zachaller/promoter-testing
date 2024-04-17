@@ -1,4 +1,25 @@
 ---
+# Source: argo-rollouts/templates/controller/poddisruptionbudget.yaml
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: release-name-argo-rollouts
+  namespace: "default"
+  labels:
+    helm.sh/chart: argo-rollouts-2.35.1
+    app.kubernetes.io/name: argo-rollouts
+    app.kubernetes.io/instance: release-name
+    app.kubernetes.io/version: "v1.6.6"
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/part-of: argo-rollouts
+spec:
+  minAvailable: 0
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: argo-rollouts
+      app.kubernetes.io/instance: release-name
+      app.kubernetes.io/component: rollouts-controller
+---
 # Source: argo-rollouts/templates/controller/serviceaccount.yaml
 apiVersion: v1
 kind: ServiceAccount
@@ -15764,7 +15785,7 @@ spec:
           initialDelaySeconds: 15
           periodSeconds: 5
           successThreshold: 1
-          timeoutSeconds: 6
+          timeoutSeconds: 4
         securityContext:
           {}
         resources:
