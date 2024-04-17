@@ -15,7 +15,7 @@ echo $DRYSHA
 git checkout environment/development-next
 git pull
 
-cat << EOF >> hydrator.metadata
+cat << EOF > hydrator.metadata
 {
   "commands": ["hydrate.sh"],
   "drySHA": "$DRYSHA"
