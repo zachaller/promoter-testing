@@ -174,7 +174,7 @@ controller:
       port: metrics
     initialDelaySeconds: 15
     periodSeconds: 5
-    failureThreshold: 3
+    failureThreshold: 4
     successThreshold: 1
     timeoutSeconds: 8
 
