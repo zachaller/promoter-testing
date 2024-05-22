@@ -1,8 +1,4 @@
 {
   "commands": ["hydrate.sh"],
-  "drySHA": "6e22ccec49bc0b7ab61759dbbe31cfe0471a2bf4",
-}
-{
-  "commands": ["hydrate.sh"],
-  "drySHA": "9a305e0758d162a2d22bf429b4894c4ae6c25bc0"
+  "drySHA": "eb7d1eac6b4e44e26c1ecf9f98b1803d5dc4d218"
 }
