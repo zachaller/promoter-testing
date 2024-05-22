@@ -15783,7 +15783,7 @@ spec:
             path: /metrics
             port: metrics
           initialDelaySeconds: 15
-          periodSeconds: 8
+          periodSeconds: 5
           successThreshold: 1
           timeoutSeconds: 8
         securityContext:
