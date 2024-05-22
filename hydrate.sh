@@ -35,6 +35,8 @@ git checkout main
 
 # Staging VVVVVV
 
+echo "Starting Staging"
+
 git checkout main
 git pull
 
@@ -71,6 +73,7 @@ git checkout main
 
 # Production VVVVVVVVV
 
+echo "Starting Production"
 
 git checkout main
 git pull
