@@ -173,7 +173,7 @@ controller:
       path: /metrics
       port: metrics
     initialDelaySeconds: 15
-    periodSeconds: 6
+    periodSeconds: 7
     failureThreshold: 4
     successThreshold: 2
     timeoutSeconds: 8
