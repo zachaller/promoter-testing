@@ -172,7 +172,7 @@ controller:
     httpGet:
       path: /metrics
       port: metrics
-    initialDelaySeconds: 14
+    initialDelaySeconds: 15
     periodSeconds: 5
     failureThreshold: 4
     successThreshold: 2
