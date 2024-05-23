@@ -15785,7 +15785,7 @@ spec:
           initialDelaySeconds: 15
           periodSeconds: 7
           successThreshold: 1
-          timeoutSeconds: 8
+          timeoutSeconds: 5
         securityContext:
           {}
         resources:
