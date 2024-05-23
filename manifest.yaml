@@ -15782,7 +15782,7 @@ spec:
           httpGet:
             path: /metrics
             port: metrics
-          initialDelaySeconds: 15
+          initialDelaySeconds: 16
           periodSeconds: 5
           successThreshold: 2
           timeoutSeconds: 8
