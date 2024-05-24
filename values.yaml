@@ -176,7 +176,7 @@ controller:
     periodSeconds: 7
     failureThreshold: 5
     successThreshold: 1
-    timeoutSeconds: 4
+    timeoutSeconds: 3
 
   ## Configure Pod Disruption Budget for the controller
   pdb:
