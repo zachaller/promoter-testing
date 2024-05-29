@@ -173,10 +173,10 @@ controller:
       path: /metrics
       port: metrics
     initialDelaySeconds: 15
-    periodSeconds: 7
+    periodSeconds: 8
     failureThreshold: 3
     successThreshold: 2
-    timeoutSeconds: 1
+    timeoutSeconds: 2
 
   ## Configure Pod Disruption Budget for the controller
   pdb:
