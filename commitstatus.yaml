@@ -1,0 +1,135 @@
+apiVersion: promoter.argoproj.io/v1alpha1
+kind: CommitStatus
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: promoter
+    promoter.argoproj.io/commit-status: healthy
+  name: dev
+  namespace: default
+spec:
+  description: The build succeeded!
+  name: health
+  repository:
+    name: promoter-testing
+    owner: zachaller
+    scmProviderRef:
+      name: scmprovider-sample
+  sha: 476f8615e4ad754aec07765dcbe4f3dd1b29e57f
+  state: success
+  url: https://google.com
+
+---
+
+apiVersion: promoter.argoproj.io/v1alpha1
+kind: CommitStatus
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: promoter
+    promoter.argoproj.io/commit-status: healthy-load
+  name: dev-load-test
+  namespace: default
+spec:
+  description: The build succeeded!
+  name: health-load
+  repository:
+    name: promoter-testing
+    owner: zachaller
+    scmProviderRef:
+      name: scmprovider-sample
+  sha: 476f8615e4ad754aec07765dcbe4f3dd1b29e57f
+  state: success
+  url: https://google.com
+
+---
+
+apiVersion: promoter.argoproj.io/v1alpha1
+kind: CommitStatus
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: promoter
+    promoter.argoproj.io/commit-status: healthy
+  name: staging
+  namespace: default
+spec:
+  description: The build succeeded!
+  name: health
+  repository:
+    name: promoter-testing
+    owner: zachaller
+    scmProviderRef:
+      name: scmprovider-sample
+  sha: 1d710b6bee48679b05627f506ba14a5492a0e77b
+  state: success
+  url: https://google.com
+
+---
+
+apiVersion: promoter.argoproj.io/v1alpha1
+kind: CommitStatus
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: promoter
+    promoter.argoproj.io/commit-status: healthy-load
+  name: staging-load-test
+  namespace: default
+spec:
+  description: The build succeeded!
+  name: health-load
+  repository:
+    name: promoter-testing
+    owner: zachaller
+    scmProviderRef:
+      name: scmprovider-sample
+  sha: 1d710b6bee48679b05627f506ba14a5492a0e77b
+  state: success
+  url: https://google.com
+
+---
+
+apiVersion: promoter.argoproj.io/v1alpha1
+kind: CommitStatus
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: promoter
+    promoter.argoproj.io/commit-status: healthy
+  name: production
+  namespace: default
+spec:
+  description: The build succeeded!
+  name: health
+  repository:
+    name: promoter-testing
+    owner: zachaller
+    scmProviderRef:
+      name: scmprovider-sample
+  sha: 8d8123264bb9ce1bb2704cc45d1921b796d45b46
+  state: success
+  url: https://google.com
+
+---
+
+apiVersion: promoter.argoproj.io/v1alpha1
+kind: CommitStatus
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: promoter
+    promoter.argoproj.io/commit-status: healthy-load
+  name: production-load-test
+  namespace: default
+spec:
+  description: The build succeeded!
+  name: health-load
+  repository:
+    name: promoter-testing
+    owner: zachaller
+    scmProviderRef:
+      name: scmprovider-sample
+  sha: 8d8123264bb9ce1bb2704cc45d1921b796d45b46
+  state: success
+  url: https://google.com
