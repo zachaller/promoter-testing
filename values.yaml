@@ -174,8 +174,8 @@ controller:
       port: metrics
     initialDelaySeconds: 15
     periodSeconds: 5
-    failureThreshold: 2
-    successThreshold: 2
+    failureThreshold: 3
+    successThreshold: 3
     timeoutSeconds: 5
 
   ## Configure Pod Disruption Budget for the controller
