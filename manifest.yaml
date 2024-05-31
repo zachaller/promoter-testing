@@ -15778,13 +15778,13 @@ spec:
           successThreshold: 1
           timeoutSeconds: 10
         readinessProbe:
-          failureThreshold: 2
+          failureThreshold: 3
           httpGet:
             path: /metrics
             port: metrics
           initialDelaySeconds: 15
           periodSeconds: 5
-          successThreshold: 2
+          successThreshold: 3
           timeoutSeconds: 5
         securityContext:
           {}
