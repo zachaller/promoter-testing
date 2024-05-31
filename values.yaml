@@ -175,7 +175,7 @@ controller:
     initialDelaySeconds: 10
     periodSeconds: 5
     failureThreshold: 3
-    successThreshold: 3
+    successThreshold: 5
     timeoutSeconds: 5
 
   ## Configure Pod Disruption Budget for the controller
