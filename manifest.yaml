@@ -15784,7 +15784,7 @@ spec:
             port: metrics
           initialDelaySeconds: 10
           periodSeconds: 5
-          successThreshold: 2
+          successThreshold: 3
           timeoutSeconds: 1
         securityContext:
           {}
