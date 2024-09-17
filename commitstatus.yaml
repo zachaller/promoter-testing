@@ -15,7 +15,7 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 7368fcc86ac5c158b364c054ec9a1e742c67118b
+  sha: 8db615e7fc51c1ab2317dea0b6d86acf432ef939
   state: pending
   url: https://google.com
 
@@ -38,7 +38,7 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 7368fcc86ac5c158b364c054ec9a1e742c67118b
+  sha: 8db615e7fc51c1ab2317dea0b6d86acf432ef939
   state: pending
   url: https://google.com
 
@@ -61,8 +61,8 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: d327a6cef5c956aa83db8f93514fd7543fe996b2
-  state: pending
+  sha: f90dd0433c2fdda8e88edaa48b85f6cf97d61cf4
+  state: success
   url: https://google.com
 
 ---
@@ -84,8 +84,8 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: d327a6cef5c956aa83db8f93514fd7543fe996b2
-  state: pending
+  sha: f90dd0433c2fdda8e88edaa48b85f6cf97d61cf4
+  state: success
   url: https://google.com
 
 ---
