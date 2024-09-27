@@ -15,8 +15,8 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 64ae07eb5a4cd51c9f4fc93a9b7deae0c39e1b18
-  state: success
+  sha: 6ac4bb65e85947380e043c03339e6d3c4edbeb8e
+  phase: success
   url: https://google.com
 
 ---
@@ -38,8 +38,8 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 64ae07eb5a4cd51c9f4fc93a9b7deae0c39e1b18
-  state: success
+  sha: 6ac4bb65e85947380e043c03339e6d3c4edbeb8e
+  phase: success
   url: https://google.com
 
 ---
@@ -61,8 +61,8 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 0f34c54eb507ed1612b61a50fbaaa4b8c52eb00a
-  state: success
+  sha: 3a863788307567bfffa2eee85efaae2525e66b44
+  phase: success
   url: https://google.com
 
 ---
@@ -84,8 +84,8 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 0f34c54eb507ed1612b61a50fbaaa4b8c52eb00a
-  state: success
+  sha: 3a863788307567bfffa2eee85efaae2525e66b44
+  phase: success
   url: https://google.com
 
 ---
@@ -107,8 +107,8 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 894abe90154418105e929a4f8bfeab37958740d8
-  state: success
+  sha: 85c32316a7f36106b16c08439c53f9b1a7d081ed
+  phase: success
   url: https://google.com
 
 ---
@@ -130,6 +130,6 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 894abe90154418105e929a4f8bfeab37958740d8
-  state: success
+  sha: 85c32316a7f36106b16c08439c53f9b1a7d081ed
+  phase: success
   url: https://google.com
