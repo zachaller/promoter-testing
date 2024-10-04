@@ -15,7 +15,7 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 191618120d248e4d20ca25daf433a5c0c
+  sha: 7a491e514e14c87e2a4c6847ce5c1273ea5c42e5
   phase: pending
   url: https://google.com
 ---
