@@ -5,6 +5,27 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: promoter
     promoter.argoproj.io/commit-status: healthy
+  name: hicap
+  namespace: default
+spec:
+  description: The build succeeded!
+  name: hicap
+  repository:
+    name: promoter-testing
+    owner: zachaller
+    scmProviderRef:
+      name: scmprovider-sample
+  sha: 191618120d248e4d20ca25daf433a5c0c
+  phase: pending
+  url: https://google.com
+---
+apiVersion: promoter.argoproj.io/v1alpha1
+kind: CommitStatus
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: promoter
+    promoter.argoproj.io/commit-status: healthy
   name: dev
   namespace: default
 spec:
@@ -15,7 +36,7 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 9c07e4aebc29778afcfaae6fc650fb0d93604de2
+  sha: 191618120d248e4d20ca25daf433a5c0c4040946
   phase: success
   url: https://google.com
 
@@ -38,7 +59,7 @@ spec:
     owner: zachaller
     scmProviderRef:
       name: scmprovider-sample
-  sha: 9c07e4aebc29778afcfaae6fc650fb0d93604de2
+  sha: 191618120d248e4d20ca25daf433a5c0c4040946
   phase: success
   url: https://google.com
 
